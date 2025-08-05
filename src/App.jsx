@@ -31,14 +31,6 @@ import {
   hobbies
 } from './data';
 
-
-// Imports needed for this file:
-// import React, { useState } from 'react';
-// import { personalInfo, experiences, education, projects, conferences, fellowships, publications, skills, hobbies, navLinks } from './data';
-// import Header from './components/Header';
-// import Hero from './components/Hero';
-// ... etc for all components
-// ============================================================================
 const App = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
