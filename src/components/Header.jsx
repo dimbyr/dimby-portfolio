@@ -7,11 +7,19 @@ const Header = ({ name, navLinks, isMenuOpen, setIsMenuOpen, smoothScroll }) => 
             <a href="#home" onClick={smoothScroll} className="text-2xl font-bold text-gray-800">
                 {name}
             </a>
-            <nav className="hidden md:flex space-x-6">
-                {navLinks.map(link => (
-                    <a key={link.href} href={link.href} onClick={smoothScroll} className="text-gray-600 hover:text-blue-600 transition duration-300">{link.label}</a>
-                ))}
-            </nav>
+           <nav className="hidden md:flex flex-wrap gap-6">
+            {navLinks.map(link => (
+                <a 
+                key={link.href} 
+                href={link.href} 
+                onClick={smoothScroll} 
+                className="text-gray-600 hover:text-blue-600 transition duration-300"
+                >
+                {link.label}
+                </a>
+  ))}
+</nav>
+
             <div className="md:hidden">
                 <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                     {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
