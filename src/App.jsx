@@ -63,10 +63,10 @@ const App = () => {
                 <Education education={education} />
                 <Projects projects={projects} />
                 
-                <div className="grid md:grid-cols-2 gap-16">
+                {/* <div className="grid md:grid-cols-2 gap-16"> */}
                     <Conferences conferences={conferences} />
                     <Fellowships fellowships={fellowships} />
-                </div>
+                {/* </div> */}
 
                 <Publications publications={publications} />
                 <Skills skills={skills} />
