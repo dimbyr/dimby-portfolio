@@ -44,9 +44,9 @@ export const fellowships = [
 ];
 
 export const publications = [
-    { year: "2024", authors: "A. D. Rabearivony and S. Mouton", title: "Generalized domination of ergodic elements in ordered Banach algebras", journal: "Quaestiones Mathematicae, vol. 47, no. suppl. 1, pp. 305–317, 2024." },
-    { year: "2024", authors: "A. D. Rabearivony and S. Mouton", title: "Generalized domination in ordered Banach algebras: An introduction", journal: "Colloquium Mathematica, vol. 177, pp. 81–98, 2024." },
-    { year: "Submitted", authors: "A. D. Rabearivony and S. Mouton", title: "Domination in ordered Banach algebras with disjunctive products", journal: "submitted 2025." }
+    { year: "2024", authors: "A. D. Rabearivony and S. Mouton", title: "Generalized domination of ergodic elements in ordered Banach algebras", journal: "Quaestiones Mathematicae, vol. 47, no. suppl. 1, pp. 305–317, 2024.", link: "https://doi.org/10.2989/16073606.2023.2287851" },
+    { year: "2024", authors: "A. D. Rabearivony and S. Mouton", title: "Generalized domination in ordered Banach algebras: An introduction", journal: "Colloquium Mathematica, vol. 177, pp. 81–98, 2024.", link: "https://doi.org/10.4064/cm9452-12-2024" },
+    { year: "Submitted", authors: "A. D. Rabearivony and S. Mouton", title: "Domination in ordered Banach algebras with disjunctive products", journal: "submitted 2025.", link: "" }
 ];
 
 export const skills = {
