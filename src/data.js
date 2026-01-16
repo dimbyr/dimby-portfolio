@@ -52,7 +52,7 @@ export const publications = [
 export const skills = {
     languages: ["Malagasy (native)", "English (C2)", "French (B2)"],
     webDev: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS", "Git & GitHub", "API Integration"],
-    programming: ["Python (PyTorch)", "Ruby", "C (basic)", "LaTeX"],
+    programming: ["Python (PyTorch)", "Ruby", "C (basic)"],
     aiMl: ["Deep Learning", "Computer Vision", "NLP", "Reinforcement Learning", "Scikit-learn"]
 };
 
